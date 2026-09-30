@@ -1,0 +1,45 @@
+<title>Proposta Prime Investimentos</title>
+<style>
+:root{
+  --navy:#0b2a63; --blue:#0b63d1; --ink:#1f2937; --mute:#5b6472;
+  --bg:#f4f7fb; --card:#ffffff; --line:#e2e8f2; --tint:#eaf2fd;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#e8edf6; --mute:#9aa7bd; --bg:#0b1220; --card:#131c2e; --line:#233152; --tint:#122544;
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#e8edf6; --mute:#9aa7bd; --bg:#0b1220; --card:#131c2e; --line:#233152; --tint:#122544;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; padding-inline:16px; padding-block:40px;
+  background:var(--bg); color:var(--ink);
+  font-family:Helvetica,Arial,sans-serif;
+  display:flex; justify-content:center;
+}
+.card{
+  width:100%; max-width:480px; background:var(--card);
+  border:1px solid var(--line); border-radius:10px;
+  padding:32px 28px; text-align:center;
+}
+.mark{ font-size:19px; font-weight:700; color:var(--navy); letter-spacing:0.5px; }
+.mark span{ display:block; font-size:9px; font-weight:700; color:var(--blue); letter-spacing:3px; margin-top:2px; }
+h1{ font-size:19px; line-height:1.35; margin:22px 0 8px; color:var(--navy); }
+p{ font-size:14px; line-height:1.55; color:var(--mute); margin:0 0 22px; }
+.dl{
+  display:inline-block; background:var(--blue); color:#fff; text-decoration:none;
+  font-weight:700; font-size:14px; padding:12px 22px; border-radius:8px;
+}
+.dl:hover{ opacity:0.92; }
+.meta{ margin-top:20px; font-size:11.5px; color:var(--mute); }
+</style>
+
+<div class="card">
+  <div class="mark">PRIME<span>INVESTIMENTOS</span></div>
+  <h1>Proposta de colaboração: aluguer de licença de jogos online</h1>
+  <p>Documento de uma página com mais detalhe sobre o projeto e a proposta.</p>
+  <a class="dl" href="./Prime_Investimentos_Proposta_Colaboracao.pdf">Descarregar o documento (PDF)</a>
+  <div class="meta">Prime Investimentos · Setembro de 2026</div>
+</div>
